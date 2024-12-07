@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h1>Display User Information</h1>
-    <p>ID: ${id}</p>
-    <p>Name: ${name}</p>
+  <h1>Results</h1>
+    <p>Sum: ${sum}</p>
+    <c:if test="${not empty Multiplication}">
+        <p>Multiplication: ${Multiplication}</p>
+    </c:if>
 </body>
 </html>

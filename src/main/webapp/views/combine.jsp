@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h1>Display User Information</h1>
-    <p>ID: ${id}</p>
-    <p>Name: ${name}</p>
+ <h1>Combined Strings</h1>
+    <p>Concatenated String: ${sum}</p>
 </body>
 </html>
